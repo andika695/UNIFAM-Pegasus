@@ -157,7 +157,7 @@ public class FXMLRegisterController implements Initializable {
             registerFamilyUser(name, username, password, parentName, usia);
         }
 
-        registerButton.setDisable(false); // Aktifkan kembali tombol jika ada error sebelum redirect
+        registerButton.setDisable(false); 
     }
 
     private boolean isValidEmail(String email) {
