@@ -3,7 +3,7 @@ package controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import model.ArrayList; // Import ArrayList kustom Anda
+import model.ArrayList; 
 import model.Reward;
 import model.RewardManager;
 
@@ -108,7 +108,7 @@ public class FXMLParentRewardController {
             String name = txtName.getText();
             int point = Integer.parseInt(txtPoint.getText());
 
-            // Menambahkan data ke ArrayList kustom
+            
             rewardList.add(new Reward(name, point));
             RewardManager.getInstance().saveToXML();
 
