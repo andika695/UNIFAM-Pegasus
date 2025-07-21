@@ -1,18 +1,23 @@
-## Getting Started
+### **Deskripsi Program: FamFit – Keluarga Sehat, Hidup Hebat**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**FamFit** adalah aplikasi inovatif yang dirancang untuk mendorong gaya hidup sehat dalam lingkungan keluarga. Program ini menggabungkan aktivitas olahraga ringan hingga menantang, yang disesuaikan dengan usia dan kemampuan masing-masing anggota keluarga. Dengan pendekatan yang interaktif dan menyenangkan, FamFit bertujuan membangun kebiasaan sehat secara kolektif—membuat olahraga menjadi aktivitas yang dinikmati bersama.
 
-## Folder Structure
+#### **Fitur Utama:**
 
-The workspace contains two folders by default, where:
+* **Tantangan Olahraga Berdasarkan Usia**
+  Aktivitas disesuaikan untuk anak-anak, remaja, dewasa, hingga lansia agar tetap aman dan menyenangkan.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* **Progress Tracker Keluarga**
+  Lacak perkembangan kebugaran setiap anggota keluarga secara real-time dan raih pencapaian bersama.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* **Reward System**
+  Tingkatkan semangat kompetitif yang sehat melalui sistem penghargaan.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* **Tips Sehat**
+  Dilengkapi dengan panduan pola hidup sehat yang mudah diikuti.
 
-## Dependency Management
+#### **Tujuan Program:**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Meningkatkan kesadaran kesehatan di lingkungan keluarga.
+* Menjadikan olahraga sebagai rutinitas menyenangkan bersama keluarga.
+* Menguatkan ikatan keluarga melalui kegiatan positif dan produktif.
