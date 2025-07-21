@@ -7,7 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
-import model.ArrayList; // Import ArrayList kustom Anda
+import model.ArrayList; 
 import model.Reward;
 import model.RewardManager;
 
@@ -24,11 +24,11 @@ public class FXMLFamilyRewardController {
     private void handleClaimReward(Reward reward) {
         if (reward != null) {
             String claimedRewardName = reward.getNamaReward();
-            // Menghapus reward dari ArrayList kustom
+            
             RewardManager.getInstance().getRewardList().remove(reward);
             RewardManager.getInstance().saveToXML();
 
-            // Me-refresh FlowPane secara manual setelah reward diklaim (dihapus)
+            
             refreshFlowPane();
 
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -49,7 +49,7 @@ public class FXMLFamilyRewardController {
 
         labelTotalReward.setText("Total Reward: " + rewards.size());
 
-        rewardFlowPane.getChildren().clear(); // Hapus semua kartu yang ada
+        rewardFlowPane.getChildren().clear(); 
 
         for (Reward reward : rewards) {
             try {
