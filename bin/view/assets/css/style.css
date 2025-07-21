@@ -1,0 +1,69 @@
+.navbarButton {
+  /* -fx-border-radius: 99px; */
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-border-radius: 999px;
+  -fx-background-radius:999px;
+  -fx-text-fill: #36454F;
+
+}
+
+.navbarButton:hover {
+  -fx-background-color: #e5026e;
+  -fx-text-fill: white;
+}
+
+.navbarButton:pressed {
+  -fx-background-color: #d4005c;
+  -fx-text-fill: white;
+}
+
+.loginBtn {
+    -fx-background-color: #e5026e;
+    -fx-text-fill: #FFFF;
+    -fx-background-radius: 10px;
+}
+
+.loginBtn:hover {
+    -fx-background-color: #dfd7d7;
+    -fx-text-fill: black;
+    -fx-border-color: #dfd7d7;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-radius: 10px;
+}
+
+.sidebar {
+  background-image: url('view/assets/pics/cartographer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+}
+
+/* styles.css */
+
+/* Style untuk kartu VBox */
+.reward-card {
+    -fx-background-color: #fff0f6;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+}
+
+/* Style untuk label nama reward */
+.reward-name-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Style untuk label poin */
+.reward-point-label {
+    -fx-font-size: 14px;
+}
+
+/* Style untuk tombol klaim */
+.claim-button {
+    -fx-background-color: #ff69b4;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}

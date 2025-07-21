@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="800.0" prefWidth="797.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLProfileController">
+   <center>
+      <ScrollPane fitToWidth="true" prefWidth="740.0" style="-fx-background-color: white;">
+         <content>
+            <VBox alignment="CENTER" prefHeight="801.0" prefWidth="782.0" spacing="20.0" style="-fx-background-color: white;">
+               <padding>
+                  <Insets bottom="30.0" left="50.0" right="50.0" top="30.0" />
+               </padding>
+               
+               <!-- Header -->
+               <VBox alignment="CENTER" spacing="10.0">
+                  <children>
+                     <Label style="-fx-text-fill: e5026e;" text="PROFILE" textFill="#2c3e50">
+                        <font>
+                           <Font name="System Bold" size="24.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="welcomeLabel" text="Welcome !" textFill="#7f8c8d">
+                        <font>
+                           <Font size="14.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </VBox>
+               
+               <!-- Profile Info Card -->
+               <VBox spacing="15.0" style="-fx-background-color: F8F8F8; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);">
+                  <padding>
+                     <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+                  </padding>
+                  <children>
+                     <Label text="Personal Information" textFill="#2c3e50">
+                        <font>
+                           <Font name="System Bold" size="16.0" />
+                        </font>
+                     </Label>
+                     
+                     <GridPane hgap="15.0" vgap="15.0">
+                        <columnConstraints>
+                           <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="120.0" prefWidth="150.0" />
+                           <ColumnConstraints hgrow="SOMETIMES" minWidth="200.0" prefWidth="300.0" />
+                        </columnConstraints>
+                        
+                        <children>
+                           <!-- Username -->
+                           <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="usernameLabel" text="Username" textFill="#34495e" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                              <font>
+                                 <Font size="12.0" />
+                              </font>
+                           </Label>
+                           
+                           <!-- Full Name -->
+                           <Label text="Full Name:" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           
+                           <!-- Email -->
+                           <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           
+                           <!-- Phone -->
+                           <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="pwLabel" text="12345678" textFill="#34495e" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                              <font>
+                                 <Font size="12.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="nameLabel" layoutX="176.0" layoutY="10.0" text="Name" textFill="#34495e" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                              <font>
+                                 <Font size="12.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="emailLabel" text="Email" textFill="#34495e" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                              <font>
+                                 <Font size="12.0" />
+                              </font>
+                           </Label>
+                           <Label layoutX="10.0" layoutY="108.0" text="Role:" GridPane.rowIndex="4">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="roleLabel" text="Role" textFill="#34495e" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                              <font>
+                                 <Font size="12.0" />
+                              </font>
+                           </Label>
+                        </children>
+                        <rowConstraints>
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                        </rowConstraints>
+                     </GridPane>
+                  </children>
+               </VBox>
+               
+               <!-- Change Password Card -->
+               <VBox spacing="15.0" style="-fx-background-color: F8F8F8; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);">
+                  <padding>
+                     <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+                  </padding>
+                  <children>
+                     <Label text="Change Password" textFill="#2c3e50">
+                        <font>
+                           <Font name="System Bold" size="16.0" />
+                        </font>
+                     </Label>
+                     
+                     <GridPane hgap="15.0" vgap="15.0">
+                        <columnConstraints>
+                           <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="120.0" prefWidth="150.0" />
+                           <ColumnConstraints hgrow="SOMETIMES" minWidth="200.0" prefWidth="300.0" />
+                        </columnConstraints>
+                        
+                        <children>
+                           <!-- Current Password -->
+                           <Label text="Current Password:" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           <PasswordField fx:id="currentPasswordField" promptText="Enter current password" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                           
+                           <!-- New Password -->
+                           <Label text="New Password:" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           <PasswordField fx:id="newPasswordField" promptText="Enter new password" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                           
+                           <!-- Confirm Password -->
+                           <Label text="Confirm Password:" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Label>
+                           <PasswordField fx:id="confirmPasswordField" promptText="Confirm new password" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        </children>
+                        <rowConstraints>
+                           <RowConstraints />
+                           <RowConstraints />
+                           <RowConstraints />
+                        </rowConstraints>
+                     </GridPane>
+                     
+                     <HBox alignment="CENTER_RIGHT" spacing="10.0">
+                        <children>
+                           <Button fx:id="clearPasswordButton" onAction="#clearPasswordFields" style="-fx-background-color: #95a5a6; -fx-text-fill: white; -fx-background-radius: 5;" text="Clear">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Button>
+                           <Button fx:id="changePasswordButton" onAction="#changePassword" style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-background-radius: 5;" text="Change Password">
+                              <font>
+                                 <Font name="System Bold" size="12.0" />
+                              </font>
+                           </Button>
+                        </children>
+                        <VBox.margin>
+                           <Insets top="15.0" />
+                        </VBox.margin>
+                     </HBox>
+                  </children>
+               </VBox>
+               
+            </VBox>
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

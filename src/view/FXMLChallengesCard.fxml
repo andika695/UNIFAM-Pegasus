@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="136.0" prefWidth="642.0" style="-fx-background-color: #fff0f6; -fx-background-radius: 10; -fx-border-color: #ffc0cb; -fx-border-width: 2px;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <Label fx:id="cardDateLabel" layoutX="145.0" layoutY="14.0" maxWidth="200.0" prefHeight="18.0" prefWidth="200.0" styleClass="reward-name-label">
+      <font>
+         <Font name="System Bold" size="13.0" />
+      </font>
+   </Label>
+     
+           <Label fx:id="cardchallengeLabel" layoutX="145.0" layoutY="50.0" maxWidth="200.0" prefHeight="18.0" prefWidth="200.0" styleClass="reward-name-label">
+      <font>
+         <Font name="System Bold" size="13.0" />
+      </font></Label>
+     
+           <Label fx:id="cardPesanlabel" layoutX="145.0" layoutY="68.0" maxWidth="500.0" prefHeight="18.0" prefWidth="500.0" styleClass="reward-point-label" />
+     
+           <Button fx:id="cardtombolSelesai" layoutX="519.0" layoutY="96.0" styleClass="claim-button" text="selesai" />
+   <ImageView fitHeight="110.0" fitWidth="137.0" layoutX="8.0" layoutY="13.0">
+      <image>
+         <Image url="@assets/Icon/o.png" />
+      </image>
+   </ImageView>
+</AnchorPane>

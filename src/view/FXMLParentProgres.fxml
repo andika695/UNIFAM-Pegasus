@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLParentProgresController">
+   <children>
+      <Label layoutX="48.0" layoutY="24.0">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <BarChart fx:id="nama" layoutX="25.0" layoutY="94.0" prefHeight="534.0" prefWidth="784.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Label layoutX="48.0" layoutY="24.0" style="-fx-text-fill: #e5026e;" text="PARENT">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="24.0" text="PROGRES">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

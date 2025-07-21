@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="834.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLFamilyChallengesController">
+   <children>
+      <Label layoutX="57.0" layoutY="35.0" style="-fx-text-fill: #e5026e;" text="FAMILY">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="35.0" text="CHALLENGES">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbTotalChallenges" layoutX="70.0" layoutY="105.0" text="Total Challenges: 0" />
+      <ScrollPane layoutY="132.0" prefHeight="670.0" prefWidth="834.0" style="-fx-background-color: white;">
+         <content>
+                <FlowPane fx:id="fpChallenge" alignment="TOP_CENTER" hgap="20" prefHeight="658.0" prefWidth="835.0" prefWrapLength="1000" style="-fx-background-color: white;" vgap="20"> 
+                <padding>
+                    <Insets bottom="10" left="20" right="20" top="10" />
+                </padding>
+            </FlowPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

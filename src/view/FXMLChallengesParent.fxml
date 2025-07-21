@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="834.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLChallengesController">
+   <bottom>
+      <AnchorPane fx:id="AnchorId" prefHeight="800.0" prefWidth="834.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="38.0" layoutY="14.0">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+            <TableView fx:id="userTable" layoutX="38.0" layoutY="107.0" prefHeight="447.0" prefWidth="731.0">
+              <columns>
+                <TableColumn fx:id="dateColumm" prefWidth="147.0" text="date" />
+                  <TableColumn fx:id="challengesColumn" prefWidth="206.0" text="Challenges" />
+                  <TableColumn fx:id="pesanColumn" prefWidth="259.0" text="pesan" />
+                  <TableColumn fx:id="statusColumn" prefWidth="118.0" text="status" />
+              </columns>
+            </TableView>
+            <ComboBox fx:id="cbNama" layoutX="51.0" layoutY="67.0" onAction="#handleComboChanged" prefWidth="150.0" promptText="pilih member" />
+            <TextField fx:id="tfchallenge" layoutX="76.0" layoutY="576.0" prefHeight="26.0" prefWidth="221.0" promptText="challenges" />
+            <TextField fx:id="tfPesan" layoutX="77.0" layoutY="608.0" prefHeight="26.0" prefWidth="221.0" promptText="pesan" />
+            <Button fx:id="Add" layoutX="77.0" layoutY="649.0" mnemonicParsing="false" onAction="#addButton" prefHeight="26.0" prefWidth="82.0" text="Add " />
+            <Button fx:id="Edit" layoutX="187.0" layoutY="649.0" mnemonicParsing="false" onAction="#editButton" prefHeight="26.0" prefWidth="89.0" text="Edit" />
+            <Button fx:id="delete" layoutX="631.0" layoutY="563.0" mnemonicParsing="false" onAction="#deleteButton" prefHeight="26.0" prefWidth="89.0" text="Delete" />
+            <Label layoutX="38.0" layoutY="-9.0" style="-fx-text-fill: #e5026e;" text="PARENT">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+            <Label layoutX="197.0" layoutY="-9.0" text="CHALLENGES">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </bottom>
+</BorderPane>

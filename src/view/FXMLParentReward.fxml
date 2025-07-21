@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLParentRewardController">
+   <center>
+      <AnchorPane prefHeight="800.0" prefWidth="834.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="rewardTable" layoutX="93.0" layoutY="132.0" prefHeight="405.0" prefWidth="670.0">
+               <columns>
+                  <TableColumn fx:id="colName" prefWidth="356.00000762939453" text="Nama Reward" />
+                  <TableColumn fx:id="colPoint" prefWidth="314.3999328613281" text="Poin" />
+               </columns>
+            </TableView>
+            <Label layoutX="168.0" layoutY="561.0" text="Reward : " />
+            <TextField fx:id="txtName" layoutX="217.0" layoutY="557.0" prefWidth="160" />
+            <Label layoutX="388.0" layoutY="561.0" prefHeight="18.0" prefWidth="34.0" text="Poin :" />
+            <TextField fx:id="txtPoint" layoutX="428.0" layoutY="557.0" prefWidth="60" />
+            <Button layoutX="169.0" layoutY="599.0" onAction="#handleAdd" text="Tambah" />
+            <Button layoutX="303.0" layoutY="599.0" onAction="#handleEdit" text="Edit" />
+            <Button layoutX="240.0" layoutY="599.0" onAction="#handleDelete" text="Hapus" />
+            <Label layoutX="76.0" layoutY="35.0" style="-fx-text-fill: e5026e;" text="PARENT">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+            <Label layoutX="229.0" layoutY="35.0" text="REWARD">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

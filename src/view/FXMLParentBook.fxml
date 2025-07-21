@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLParentExerciseController">
+   <center>
+      <AnchorPane prefHeight="800.0" prefWidth="834.0" style="-fx-background-color: #f5f5f5;" BorderPane.alignment="CENTER">
+         <children>
+            <!-- Header -->
+            <Label layoutX="50.0" layoutY="30.0" style="-fx-text-fill: #e5026e;" text="EXERCISE TUTORIAL">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            
+            <!-- Back Button -->
+            <Button fx:id="backButton" layoutX="650.0" layoutY="30.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #e5026e; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 10;" text="← Back">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            
+            <!-- Exercise Image -->
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="50.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/pics/FamiltFitnes.png" />
+               </image>
+            </ImageView>
+            
+            <!-- Exercise Title -->
+            <Label layoutX="380.0" layoutY="90.0" style="-fx-text-fill: #333333;" text="Family Fitness Workout">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            
+            <!-- Exercise Info -->
+            <Label layoutX="380.0" layoutY="130.0" style="-fx-text-fill: #666666;" text="Duration: 30 minutes">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            
+            <Label layoutX="380.0" layoutY="155.0" style="-fx-text-fill: #666666;" text="Difficulty: Beginner">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            
+            <Label layoutX="380.0" layoutY="180.0" style="-fx-text-fill: #666666;" text="Equipment: None required">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            
+            <!-- Tutorial Content -->
+            <ScrollPane layoutX="50.0" layoutY="320.0" prefHeight="420.0" prefWidth="730.0" style="-fx-background-color: white; -fx-border-color: #ddd; -fx-border-radius: 10; -fx-background-radius: 10;">
+               <content>
+                  <VBox spacing="20.0" style="-fx-padding: 20;">
+                     <children>
+                        <!-- Step 1 -->
+                        <VBox spacing="10.0" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #e5026e; -fx-font-weight: bold;" text="Step 1: Warm-up (5 minutes)">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="Start with light stretching and arm circles. Move your arms in slow, controlled circles - 10 times forward and 10 times backward. Follow with gentle neck rolls and shoulder shrugs to prepare your muscles for the workout." wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        
+                        <!-- Step 2 -->
+                        <VBox spacing="10.0" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #e5026e; -fx-font-weight: bold;" text="Step 2: Jumping Jacks (2 minutes)">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="Stand with feet together and arms at your sides. Jump while spreading your legs shoulder-width apart and raising your arms above your head. Jump back to starting position. Do this for 30 seconds, rest for 15 seconds, repeat 3 times." wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        
+                        <!-- Step 3 -->
+                        <VBox spacing="10.0" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #e5026e; -fx-font-weight: bold;" text="Step 3: Bodyweight Squats (3 minutes)">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="Stand with feet shoulder-width apart, toes slightly pointed out. Lower your body by bending your knees and pushing your hips back as if sitting in a chair. Keep your chest up and weight on your heels. Return to standing position. Do 15 squats, rest 30 seconds, repeat 3 sets." wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        
+                        <!-- Step 4 -->
+                        <VBox spacing="10.0" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #e5026e; -fx-font-weight: bold;" text="Step 4: Push-ups (3 minutes)">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="Start in a plank position with hands slightly wider than shoulder-width apart. Lower your body until your chest nearly touches the floor, then push back up. Beginners can modify by doing push-ups on their knees. Do 10 push-ups, rest 30 seconds, repeat 3 sets." wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        
+                        <!-- Step 5 -->
+                        <VBox spacing="10.0" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #e5026e; -fx-font-weight: bold;" text="Step 5: Plank Hold (2 minutes)">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="Get into a push-up position but rest on your forearms instead of your hands. Keep your body straight from head to heels, engaging your core muscles. Hold for 30 seconds, rest 15 seconds, repeat 3 times. Focus on breathing steadily throughout the hold." wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        
+                        <!-- Step 6 -->
+                        <VBox spacing="10.0" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #e5026e; -fx-font-weight: bold;" text="Step 6: Lunges (3 minutes)">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="Stand with feet hip-width apart. Step forward with one leg, lowering your hips until both knees are bent at 90 degrees. Keep your front knee directly above your ankle. Push back to starting position and repeat with the other leg. Do 12 lunges per leg, rest 30 seconds, repeat 2 sets." wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        
+                        <!-- Step 7 -->
+                        <VBox spacing="10.0" style="-fx-background-color: #f9f9f9; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #e5026e; -fx-font-weight: bold;" text="Step 7: Cool Down (5 minutes)">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="End your workout with gentle stretching. Focus on your major muscle groups: hamstrings, quadriceps, calves, and shoulders. Hold each stretch for 30 seconds. Take deep breaths and allow your heart rate to gradually return to normal." wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        
+                        <!-- Tips Section -->
+                        <VBox spacing="10.0" style="-fx-background-color: #e8f5e8; -fx-padding: 15; -fx-background-radius: 8;">
+                           <children>
+                              <Label style="-fx-text-fill: #2e7d32; -fx-font-weight: bold;" text="💡 Tips for Success:">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Text style="-fx-fill: #333333;" text="• Stay hydrated throughout the workout&#10;• Listen to your body and rest if needed&#10;• Maintain proper form over speed&#10;• Make it fun - play energetic music!&#10;• Exercise with family members for motivation&#10;• Consistency is key - aim for 3-4 times per week" wrappingWidth="680.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+            
+            <!-- Start Workout Button -->
+            <Button fx:id="startWorkoutButton" layoutX="350.0" layoutY="750.0" mnemonicParsing="false" onAction="#handleStartWorkout" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 15;" text="Start Workout">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

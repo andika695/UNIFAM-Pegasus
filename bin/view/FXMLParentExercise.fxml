@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="834.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLParentExerciseController">
+   <center>
+      <AnchorPane prefHeight="800.0" prefWidth="834.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="Status" layoutX="456.0" layoutY="623.0" prefHeight="18.0" prefWidth="145.0" />
+            <Label layoutX="76.0" layoutY="35.0" style="-fx-text-fill: #e5026e;" text="EXERCISE">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+            <Pane layoutX="69.0" layoutY="204.0" prefHeight="200.0" prefWidth="200.0" styleClass="reward-card" stylesheets="@assets/css/style.css">
+               <children>
+                  <Button fx:id="exercise1" layoutX="74.0" layoutY="158.0" mnemonicParsing="false" onAction="#handleExercise1" styleClass="claim-button" text="View" />
+                  <ImageView fitHeight="152.0" fitWidth="220.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/pics/FamiltFitnes.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label layoutX="250.0" layoutY="35.0" text="BOOK">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Label>
+            <Pane layoutX="320.0" layoutY="204.0" prefHeight="200.0" prefWidth="200.0" styleClass="reward-card" stylesheets="@assets/css/style.css">
+               <children>
+                  <Button layoutX="74.0" layoutY="158.0" mnemonicParsing="false" styleClass="claim-button" text="View" />
+                  <Label layoutX="54.0" layoutY="53.0" text="4 0 4">
+                     <font>
+                        <Font name="System Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="97.0" text="Page Not Found">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="570.0" layoutY="204.0" prefHeight="200.0" prefWidth="200.0" styleClass="reward-card" stylesheets="@assets/css/style.css">
+               <children>
+                  <Button layoutX="74.0" layoutY="158.0" mnemonicParsing="false" styleClass="claim-button" text="View" />
+                  <Label layoutX="54.0" layoutY="53.0" text="4 0 4">
+                     <font>
+                        <Font name="System Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="97.0" text="Page Not Found">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="69.0" layoutY="463.0" prefHeight="200.0" prefWidth="200.0" styleClass="reward-card" stylesheets="@assets/css/style.css">
+               <children>
+                  <Button layoutX="74.0" layoutY="158.0" mnemonicParsing="false" styleClass="claim-button" text="View" />
+                  <Label layoutX="54.0" layoutY="53.0" text="4 0 4">
+                     <font>
+                        <Font name="System Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="97.0" text="Page Not Found">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="317.0" layoutY="463.0" prefHeight="200.0" prefWidth="200.0" styleClass="reward-card" stylesheets="@assets/css/style.css">
+               <children>
+                  <Button layoutX="74.0" layoutY="158.0" mnemonicParsing="false" styleClass="claim-button" text="View" />
+                  <Label layoutX="54.0" layoutY="53.0" text="4 0 4">
+                     <font>
+                        <Font name="System Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="97.0" text="Page Not Found">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="570.0" layoutY="463.0" prefHeight="200.0" prefWidth="200.0" styleClass="reward-card" stylesheets="@assets/css/style.css">
+               <children>
+                  <Button layoutX="74.0" layoutY="158.0" mnemonicParsing="false" styleClass="claim-button" text="View" />
+                  <Label layoutX="54.0" layoutY="53.0" text="4 0 4">
+                     <font>
+                        <Font name="System Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="97.0" text="Page Not Found">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <TextField layoutX="95.0" layoutY="125.0" prefHeight="34.0" prefWidth="658.0" text="Search" />
+         </children></AnchorPane>
+   </center>
+</BorderPane>

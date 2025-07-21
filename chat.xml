@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<messages>
+    <message>
+        <sender>Parent</sender>
+        <content>oi</content>
+    </message>
+    <message>
+        <sender>Family</sender>
+        <content>hai</content>
+    </message>
+</messages>

@@ -1,0 +1,8 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "c:\\Users\\andik\\OneDrive\\Documents\\Kuliah\\TUBESSFIX\\UNIFAM\\lib\\xstream-1.4.20.jar",
+    "c:\\Users\\andik\\Downloads\\FamFitV2\\FamFitV2\\lib\\xstream-1.4.20.jar"
+  ]
+}

@@ -1,0 +1,86 @@
+<list>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Joging</challenge>
+    <pesan>Joging setiap pagi/sore</pesan>
+    <nama>Riko</nama>
+    <status>selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Renang</challenge>
+    <pesan>Renang setiap hari minggu</pesan>
+    <nama>Riko</nama>
+    <status>belum Selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Senam pagi</challenge>
+    <pesan>Senam pagi minimall 15 menit</pesan>
+    <nama>Riko</nama>
+    <status>belum Selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Menari</challenge>
+    <pesan>Minimal 15 menit</pesan>
+    <nama>Diva</nama>
+    <status>belum Selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Senam</challenge>
+    <pesan>Senam pagi minimal 15 menit</pesan>
+    <nama>Diva</nama>
+    <status>selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Jalan sehat</challenge>
+    <pesan>Jalan sehat keliling rumah min 10 menit</pesan>
+    <nama>Diva</nama>
+    <status>selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Lari</challenge>
+    <pesan>Lari sore min 5km</pesan>
+    <nama>Doni</nama>
+    <status>selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Push-up</challenge>
+    <pesan>Push-up min 30x</pesan>
+    <nama>Doni</nama>
+    <status>selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Pull-up</challenge>
+    <pesan>Pull-up min 20x</pesan>
+    <nama>Doni</nama>
+    <status>belum Selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Jalan santai</challenge>
+    <pesan>Jalan santai min 5km</pesan>
+    <nama>Dinda</nama>
+    <status>selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Renang</challenge>
+    <pesan>Renang setiap hari sabtu-minggu</pesan>
+    <nama>Dinda</nama>
+    <status>belum Selesai</status>
+  </challenge>
+  <challenge>
+    <date>2025-07-19</date>
+    <challenge>Nyapu</challenge>
+    <pesan>Nyapu halaman rumah setiap pagi</pesan>
+    <nama>Dinda</nama>
+    <status>belum Selesai</status>
+  </challenge>
+</list>
