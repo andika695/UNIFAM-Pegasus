@@ -5,7 +5,7 @@ import javafx.scene.control.*;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.VBox;
 import model.Chat;
-import model.ArrayList; // Gunakan ArrayList buatan sendiri
+import model.ArrayList; 
 import org.w3c.dom.*;
 
 import javax.xml.parsers.DocumentBuilder;
