@@ -88,7 +88,7 @@ public class FXMLFamilyChatController {
     private void refreshChat() {
         chatBox.getChildren().clear();
         for (int i = 0; i < messages.size(); i++) {
-            Chat msg = (Chat) messages.get(i); // Cast karena arrayList.get() return-nya Object
+            Chat msg = (Chat) messages.get(i); 
             addMessageToUI(msg);
         }
     }
